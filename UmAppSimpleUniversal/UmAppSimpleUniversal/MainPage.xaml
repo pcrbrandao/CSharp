@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="UmAppSimpleUniversal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UmAppSimpleUniversal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="10,10,10,0" TextWrapping="Wrap" Text="Um App Simples, mas Universal" VerticalAlignment="Top"/>
+        <Image x:Name="image" HorizontalAlignment="Center" Height="315" Margin="10,35,10,10" VerticalAlignment="Center" Width="620" FocusVisualPrimaryBrush="{x:Null}"/>
+
+    </Grid>
+</Page>
