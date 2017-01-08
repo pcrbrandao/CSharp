@@ -9,7 +9,6 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="10,10,10,0" TextWrapping="Wrap" Text="Um App Simples, mas Universal" VerticalAlignment="Top"/>
-        <Image x:Name="image" HorizontalAlignment="Center" Height="315" Margin="10,35,10,10" VerticalAlignment="Center" Width="620" FocusVisualPrimaryBrush="{x:Null}"/>
 
     </Grid>
 </Page>
