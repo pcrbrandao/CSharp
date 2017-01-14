@@ -15,12 +15,19 @@ namespace UmAppParaConsole
 
     public class WhileCounter
     {
-        string CountString(int fim)
+        public string CountString(int fim)
         {
             int count = 0;
             string saida = "";
             while (++count <= fim)
-                saida = saida + count.ToString() + " ";
+            {
+                saida += count.ToString();
+                if (count < fim )
+                {
+                    saida += " ";
+                }
+            }
+               
             return saida;
         }
 
