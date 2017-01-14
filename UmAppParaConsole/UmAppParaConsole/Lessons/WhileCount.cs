@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace UmAppParaConsole
 {
@@ -24,9 +21,11 @@ namespace UmAppParaConsole
             return saida;
         }
 
-        public void Execute()
+        static public void Execute()
         {
-            Console.WriteLine(CountString(fim: 5));
+            WhileCount counter = new WhileCount();
+            Console.WriteLine(counter.CountString(fim: 5));
+            MessageBox.Show("Olá, você!");
         }
     }
 }
