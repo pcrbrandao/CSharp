@@ -10,7 +10,7 @@ namespace UnitTestUmAppParaConsole
         [TestMethod]
         public void Test1a5DeveSerValido()
         {
-            WhileCounter counter = new WhileCounter();
+            WhileCount counter = new WhileCount();
             string stringCounter = counter.CountString(fim: 5);
             string umAcinco = @"1 2 3 4 5";
             bool teste = stringCounter.Equals(umAcinco);

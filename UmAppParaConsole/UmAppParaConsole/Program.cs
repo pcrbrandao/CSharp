@@ -7,33 +7,9 @@ namespace UmAppParaConsole
     {
         static void Main(string[] args)
         {
-            WhileCounter counter = new WhileCounter();
+            WhileCount counter = new WhileCount();
             counter.Execute();
             MessageBox.Show("Olá, você!");
-        }
-    }
-
-    public class WhileCounter
-    {
-        public string CountString(int fim)
-        {
-            int count = 0;
-            string saida = "";
-            while (++count <= fim)
-            {
-                saida += count.ToString();
-                if (count < fim )
-                {
-                    saida += " ";
-                }
-            }
-               
-            return saida;
-        }
-
-        public void Execute()
-        {
-            Console.WriteLine(CountString(fim: 5));
         }
     }
 }
