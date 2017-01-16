@@ -1,4 +1,7 @@
-﻿namespace UmAppParaConsole
+﻿using System;
+using UmAppParaConsole.Lessons;
+
+namespace UmAppParaConsole
 {
     /// <summary>
     /// As lições básicas do livro da Deitel são executadas no método Execute.
@@ -6,10 +9,12 @@
     /// </summary>
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
             // Ok! testado
             // WhileCount.Execute();
+            SquareInt.Execute();
         }
     }
 }
