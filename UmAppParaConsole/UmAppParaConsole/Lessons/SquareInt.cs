@@ -77,6 +77,7 @@ namespace UmAppParaConsole.Lessons
         /// <param name="e">Contém os argumentos do evento.</param>
         private void CalculateButton_Click(object sender, EventArgs e)
         {
+            calculateButton.Enabled = false;
             AtualizaLabel();
         }
     }
